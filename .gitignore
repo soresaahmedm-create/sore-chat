@@ -1,0 +1,8 @@
+node_modules/
+dist/
+build/
+*.log
+.env
+.expo/
+*.apk
+*.aab

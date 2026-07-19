@@ -1,0 +1,44 @@
+{
+  "expo": {
+    "name": "Sore Chat",
+    "slug": "sorechat",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "dark",
+    "backgroundColor": "#12131a",
+    "updates": {
+      "url": "https://u.expo.dev/YOUR_EAS_PROJECT_ID",
+      "checkAutomatically": "NEVER",
+      "fallbackToCacheTimeout": 0
+    },
+    "runtimeVersion": { "policy": "appVersion" },
+    "android": {
+      "package": "com.sorechat.app",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#12131a"
+      },
+      "permissions": ["CAMERA", "RECORD_AUDIO", "MODIFY_AUDIO_SETTINGS", "BLUETOOTH", "POST_NOTIFICATIONS", "FOREGROUND_SERVICE", "USE_FULL_SCREEN_INTENT"],
+      "googleServicesFile": "./google-services.json"
+    },
+    "ios": {
+      "bundleIdentifier": "com.sorechat.app",
+      "infoPlist": {
+        "NSCameraUsageDescription": "Sore Chat uses your camera for video calls.",
+        "NSMicrophoneUsageDescription": "Sore Chat uses your microphone for audio and video calls."
+      }
+    },
+    "plugins": [
+      [
+        "@config-plugins/react-native-webrtc",
+        {
+          "cameraPermission": "Sore Chat uses your camera for video calls.",
+          "microphonePermission": "Sore Chat uses your microphone for audio and video calls."
+        }
+      ],
+      "@react-native-firebase/app",
+      "@react-native-firebase/messaging"
+    ]
+  }
+}
