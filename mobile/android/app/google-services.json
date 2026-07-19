@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1079981030813",
+    "project_id": "sore-chat",
+    "storage_bucket": "sore-chat.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1079981030813:android:12fabfe289cf3df82ac374",
+        "android_client_info": {
+          "package_name": "com.sorechat.app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBV0x2Zv9FYaHivVYehWbgUI-mS74ejq9g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
