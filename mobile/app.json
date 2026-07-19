@@ -12,7 +12,7 @@
       "checkAutomatically": "NEVER",
       "fallbackToCacheTimeout": 0
     },
-    "runtimeVersion": { "policy": "appVersion" },
+    "runtimeVersion": "1.0.0",
     "android": {
       "package": "com.sorechat.app",
       "adaptiveIcon": {
